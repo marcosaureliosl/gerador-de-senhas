@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #18181B;
+    background: linear-gradient(rgba(83, 237, 11, 0.895), rgba(251, 4, 4, 0.84));
     width: 100%;
     height: 100vh;
     display: flex;
@@ -17,26 +17,26 @@ body{
 }
 
 .logo{
-    max-width: 600px;
+    max-width: 800px;
     margin-bottom: 24px;
     background-color: hwb(107 0% 0% / 0.922);
     filter: invert(1);
 }
 
 .container-input{
-    max-width: 480px;
-    margin: 14px 0;
+    max-width: 580px;
+    margin: 18px 0;
 }
 
 .container-input span{
     color: rgb(30, 255, 0);
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .slider{
     -webkit-appearance: none;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 12px;
     background: #dfdfdf;
     height: 18px;
     outline: none;
@@ -48,14 +48,14 @@ body{
     border-radius: 4px;
     cursor: pointer;
     margin-top: 40px;
-    color: #fff;
+    color: #b2a5a5;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 30px;
 }
 
 .container-password{
     max-width: 480px;
-    margin: 14px 0;
+    margin: 18px 0;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -65,20 +65,20 @@ body{
 .title{
     text-align: center;
     color: rgb(165, 43, 226);
-    font-size: 28px;
+    font-size: 35px;
     margin-top: 24px;
     margin-bottom: 8px;
 }
 
 .password{
-    height: 60px;
+    height: 80px;
     background-color: rgba(0,0,0, 0.40);
     border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
     color:  red;
-    border: 1px solid #313131;
+    border: 1px solid #6b5d5d;
     transition: transform 0.5s;
 }
 
